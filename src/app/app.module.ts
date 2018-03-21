@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { ZippyComponent } from './zippy/zippy.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ZippyComponent
   ],
   imports: [
     BrowserModule
